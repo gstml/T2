@@ -70,7 +70,8 @@ div.relative.m-3 {
   background-color: #1F1E1C;
 }
 
-a.ml-2.flex.items-center.text-sm {
+a.ml-2.flex.items-center.text-sm,
+div p a {
   color: #D480A6;
 }
 
@@ -180,4 +181,15 @@ top: -5px;
 .notifications-counter[data-v-4c76fcb7] {
 	font-size: .8em;
 font-weight: bold;
+}
+
+a.router-link-active.router-link-exact-active.tab-active.tab.w-full.capitalize {
+       background-color: #1F1E1C;
+border-radius: 20px;
+border: none; 
+}
+
+a.router-link-active.router-link-exact-active.tab.w-full.capitalize {
+  border: none;
+  	color: #FAEDD9;
 }
