@@ -1,6 +1,9 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&family=Nunito:ital,wght@0,300;0,700;1,400&display=swap');
+
+
 body{
   background-color: #2B2A27;
-  font-family: "Proxima Nova";
+font-family: 'Nunito', sans-serif;
   border: none;
   color: #CCC5B9;
 }
@@ -192,4 +195,8 @@ border: none;
 a.router-link-active.router-link-exact-active.tab.w-full.capitalize {
   border: none;
   	color: #FAEDD9;
+}
+
+nav.sticky.top-0.z-10.hidden.h-screen.w-[6em].min-w-[6em].md:flex.md:flex-col.md:justify-between.p-4.xl:w-[14.5em].xl:min-w-[14.5em] {
+  
 }
