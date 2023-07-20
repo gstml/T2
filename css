@@ -197,6 +197,19 @@ a.router-link-active.router-link-exact-active.tab.w-full.capitalize {
   	color: #FAEDD9;
 }
 
-nav.sticky.top-0.z-10.hidden.h-screen.w-[6em].min-w-[6em].md:flex.md:flex-col.md:justify-between.p-4.xl:w-[14.5em].xl:min-w-[14.5em] {
-  
+div.dialog {
+background: rgba(20, 20, 20, 0.9);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.3px);
+-webkit-backdrop-filter: blur(9.3px);
+}
+
+img.max-w-full {
+  border-radius: 10px;
+  border: 1px solid rgba(20, 20, 20, 0.03);
+}
+
+button.inline-flex.items-center.rounded-lg.bg-transparent {
+  background-color: #3D3B36;
 }
