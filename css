@@ -168,3 +168,16 @@ div.rounded-lg.bg-white.p-4.shadow-sm {
   background-color: #3D3B36;
   border-radius: 20px;
 }
+
+div.notifications-counter {
+  border: none;
+  background-color: #EF3486;
+width: 1.4em;
+right: -5px;
+top: -5px;
+}
+
+.notifications-counter[data-v-4c76fcb7] {
+	font-size: .8em;
+font-weight: bold;
+}
