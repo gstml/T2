@@ -163,3 +163,8 @@ a.my-2.flex.overflow-hidden.rounded-lg.bg-white {
   padding: 1.5em;
   background-color: #363430;
 }
+
+div.rounded-lg.bg-white.p-4.shadow-sm {
+  background-color: #3D3B36;
+  border-radius: 20px;
+}
