@@ -158,3 +158,8 @@ a.flex.items-center.rounded-none.border.border-slate-200.p-2 {
   accent-color: #D480A6;
   border: none;
 }
+
+a.my-2.flex.overflow-hidden.rounded-lg.bg-white {
+  padding: 1.5em;
+  background-color: #363430;
+}
