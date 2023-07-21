@@ -176,14 +176,20 @@ div.rounded-lg.bg-white.p-4.shadow-sm {
 div.notifications-counter {
   border: none;
   background-color: #EF3486;
-width: 1.4em;
-right: -5px;
-top: -5px;
+width: 1.5em;
+height: 1.5em;
+right: -3px;
+top: -3px;
 }
 
 .notifications-counter[data-v-4c76fcb7] {
-	font-size: .8em;
 font-weight: bold;
+font-size: 1em;
+}
+
+li.nav-page:nth-child(2) > a:nth-child(1) > div:nth-child(1) > div:nth-child(2){
+  font-weight: bold;
+font-size: 0.75em;
 }
 
 a.router-link-active.router-link-exact-active.tab-active.tab.w-full.capitalize {
@@ -210,3 +216,21 @@ img.max-w-full {
   border: 1px solid rgba(20, 20, 20, 0.03);
 }
 
+a.flex.items-center.py-2 {
+  background-color: #353430;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 10px;
+}
+
+span.text-left.text-sm {
+  color: #FAEDD9;
+}
+
+div.loading-spinner {
+  fill: red;
+}
+
+div.sticky.top-0.z-10.flex.h-20.flex-row.items-center.bg-body {
+box-shadow: 0px 1px 5px 0px rgb(31, 30, 28, 0.95);
+}
